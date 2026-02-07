@@ -134,19 +134,7 @@ TWILIO_AUTH_TOKEN = "your_twilio_auth_token_here"
 TWILIO_FROM_NUMBER = "+1234567890"  # your Twilio phone or WhatsApp-enabled number
 TWILIO_EMERGENCY_TO_NUMBER = "+1987654321"  # safety helpline / emergency contact
 ```
+<img width="1170" height="2532" alt="IMG_7142" src="https://github.com/user-attachments/assets/b910ef14-a4f0-4ee5-8ef1-6d42dd1682f9" />
 
-> **Security note:** Don’t commit real keys; use `.env` or environment variables in production.
+<img width="1170" height="2532" alt="IMG_7141" src="https://github.com/user-attachments/assets/1e868a94-8819-4f4e-a3e4-9e82761f47c9" />
 
-If you prefer environment variables, adapt `config.py` to read from `os.environ`.
-
----
-
-## Running the Backend (FastAPI + Twilio webhook)
-
-### Option A: Using uv directly
-
-From the project root:
-
-```bash
-uv run uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
-```
